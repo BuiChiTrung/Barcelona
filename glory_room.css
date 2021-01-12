@@ -1,0 +1,31 @@
+#background {
+  position: relative; }
+  #background > img {
+    height: 2000px; }
+  #background .container {
+    position: absolute;
+    top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gold; }
+    #background .container button {
+      color: gold; }
+    #background .container button:hover {
+      color: #92A8D1; }
+    #background .container #middle {
+      width: 100%;
+      color: gold; }
+      #background .container #middle img {
+        width: 100px;
+        height: 130px; }
+      #background .container #middle img:hover {
+        width: 200px;
+        height: 260px; }
+      @media (max-width: 499px) {
+        #background .container #middle table {
+          color: #111111; } }
+      @media (min-width: 500px) {
+        #background .container #middle table {
+          color: gold; } }
+
+/*# sourceMappingURL=glory_room.css.map */

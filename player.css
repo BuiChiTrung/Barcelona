@@ -1,0 +1,34 @@
+.container {
+  position: relative; }
+  .container img {
+    width: 102.5%; }
+  .container #header {
+    width: 100%;
+    position: absolute;
+    top: 3%; }
+    .container #header button {
+      color: gold; }
+    .container #header button:hover {
+      color: #92A8D1; }
+  .container #middle {
+    position: absolute;
+    width: 100%;
+    top: 15%; }
+    .container #middle .row {
+      width: 100%; }
+      .container #middle .row .col-2 img {
+        width: 100%;
+        height: 120px; }
+      .container #middle .row .col-2 a, .container #middle .row .col-2 p:hover {
+        color: #E15D44;
+        font-weight: bolder;
+        font-style: italic; }
+      .container #middle .row .col-2 p {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-weight: bold;
+        color: blue; }
+  .container .row {
+    width: 100%; }
+
+/*# sourceMappingURL=player.css.map */

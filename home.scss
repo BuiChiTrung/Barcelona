@@ -1,0 +1,40 @@
+$font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#header {
+    .logo {
+        width: 110px;
+    }
+    .word {
+        font-size:33px;
+        font-family: font;
+        color: gold;
+    }
+    
+    form{
+        padding:10px;
+        input {
+            background-color: #DFCFBE;
+            margin-top:5px;
+        }
+        button {
+            font: $font;
+            background-color:#DFCFBE;
+            margin-top:3px;
+        }
+    }
+}
+
+#middle {
+    position: relative;
+    .button {
+        position: absolute;
+        top:-650px;
+    }
+    button {
+        color: gold;
+    }
+    button:hover {
+        color: #92A8D1;
+    }
+}
+
+

@@ -1,0 +1,27 @@
+#header .logo {
+  width: 110px; }
+#header .word {
+  font-size: 33px;
+  font-family: font;
+  color: gold; }
+#header form {
+  padding: 10px; }
+  #header form input {
+    background-color: #DFCFBE;
+    margin-top: 5px; }
+  #header form button {
+    font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #DFCFBE;
+    margin-top: 3px; }
+
+#middle {
+  position: relative; }
+  #middle .button {
+    position: absolute;
+    top: -650px; }
+  #middle button {
+    color: gold; }
+  #middle button:hover {
+    color: #92A8D1; }
+
+/*# sourceMappingURL=home.css.map */

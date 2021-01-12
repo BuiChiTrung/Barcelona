@@ -1,0 +1,44 @@
+$mau_sac: gold;
+#background {
+    position: relative;
+    > img {
+        height: 2000px;
+    }
+    .container {
+        position: absolute;
+        top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: $mau_sac;
+        button {
+            color: $mau_sac;
+        }
+        button:hover {
+            color: #92A8D1;
+        }
+
+        #middle {
+            width: 100%;
+            color: $mau_sac;
+            img {
+                width: 100px;
+                height: 130px;
+            }
+            img:hover {
+                width: 200px;
+                height: 260px;
+            }
+            @media (max-width: 499px) {
+                table {
+                    color: #111111;
+                }
+            }
+            @media (min-width: 500px) {
+                table {
+                    color: $mau_sac;
+                }
+            }
+            
+        }
+    }
+}
